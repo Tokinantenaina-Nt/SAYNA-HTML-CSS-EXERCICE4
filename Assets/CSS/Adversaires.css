@@ -1,0 +1,35 @@
+:root {
+  --prime_red: #b11313;
+  --prime_yellow: #f1c530;
+  --prime_blue: #114c92;
+  --prime_black: #000000;
+  --prime_white: #ffffff;
+}
+
+figure * {
+  color: var(--prime_black);
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  background-color: var(--prime_yellow);
+  border: solid 5px var(--prime_black);
+  border-top: 0px;
+  border-radius: 0% 0% 20% 20%;
+}
+.granTitreAdversaires {
+  background: url(../Illustration/img7.png) no-repeat;
+  background-size: 100%;
+}
+.listeDesAdv {
+  background-color: var(--prime_yellow);
+}
+/* FOOTER ADVERSAIRE  */
+.iconEtCopyright_yellow span {
+  background-color: var(--prime_yellow);
+  border-radius: 50%;
+}
+#langue {
+  background-color: var(--prime_yellow);
+}
