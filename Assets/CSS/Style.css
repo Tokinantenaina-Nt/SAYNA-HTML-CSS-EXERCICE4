@@ -1,0 +1,74 @@
+:root {
+  --prime_red: #b11313;
+  --prime_yellow: #f1c530;
+  --prime_blue: #114c92;
+  --prime_black: #000000;
+  --prime_white: #ffffff;
+}
+* {
+  color: var(--prime_white);
+}
+nav {
+  background-color: var(--prime_red);
+  color: var(--prime_white);
+}
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+}
+/* MAIN  */
+/* GrandTitre  */
+.grandTitre {
+  color: var(--prime_white);
+  background: url(../Illustration/img1.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+.boutton {
+  background-color: var(--prime_white);
+  color: var(--prime_red);
+  border: 0;
+}
+
+.boutton_no_bg {
+  background-color: none;
+  color: var(--prime_white);
+  border: var(--prime_white);
+}
+
+/* Au cinéma  */
+.auCinema {
+  color: var(--prime_white);
+  background-color: var(--prime_red);
+}
+.auCinema img {
+  width: 100%;
+}
+
+/* Deviens Spiderman */
+.deviensSpiderman {
+  background: url(../Illustration/img5.png) no-repeat var(--prime_blue);
+  background-size: auto;
+}
+
+/* Inscrit au Newsleter  */
+.inscritToi {
+  background: url(../Illustration/img6.png) var(--prime_red) -500% 0% no-repeat;
+  background-size: auto;
+}
+
+/* FOOTER  */
+footer {
+  background: var(--prime_black);
+  text-align: center;
+}
+.footerMenu {
+  color: white;
+  font-size: small;
+}
+footer .iconEtCopyright span {
+  background-color: var(--prime_red);
+  border-radius: 50%;
+}
+#copyright {
+  color: var(--prime_white);
+}
