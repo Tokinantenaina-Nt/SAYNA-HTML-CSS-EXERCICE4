@@ -41,3 +41,11 @@ html * {
   background: url(../Illustration/img33.png) 50% 50% no-repeat;
   background-size: 100%;
 }
+/* FOOTER HEROS PAGE  */
+.iconEtCopyright_blue {
+  background-color: var(--prime_blue);
+  border-radius: 50%;
+}
+.langue_blue {
+  background-color: var(--prime_blue);
+}

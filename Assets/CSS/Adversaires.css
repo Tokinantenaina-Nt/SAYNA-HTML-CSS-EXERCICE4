@@ -30,6 +30,6 @@ figcaption {
   background-color: var(--prime_yellow);
   border-radius: 50%;
 }
-#langue {
+.langue_yellow {
   background-color: var(--prime_yellow);
 }
