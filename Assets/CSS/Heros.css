@@ -1,0 +1,43 @@
+root {
+  --prime_red: #b11313;
+  --prime_yellow: #f1c530;
+  --prime_blue: #114c92;
+  --prime_black: #000000;
+  --prime_white: #ffffff;
+}
+
+html * {
+  color: var(--prime_white);
+}
+
+.grandTitreHeros {
+  background: url(../Illustration/img19.png);
+  background-size: 100%;
+}
+.valeursAdetendre {
+  background-color: var(--prime_blue);
+}
+.fondationSolide {
+  background: url(../Illustration/img20.png);
+  background-size: 100%;
+}
+.descriptionFondationSolide {
+  background-color: var(--prime_blue);
+}
+.jamaisSeul {
+  background-color: var(--prime_blue);
+}
+.scene_Bg {
+  background: url(../Illustration/img32.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+.lesAvengersProfils {
+  background-color: var(--prime_red);
+}
+.lesAvengersProfils img {
+  width: 100%;
+}
+.UniversRiche {
+  background: url(../Illustration/img33.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
