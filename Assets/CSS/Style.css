@@ -11,11 +11,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
 nav {
   color: var(--prime_white);
   font-size: x-small;
 }
-nav li {
+nav li,
+footer li {
   text-decoration: none;
   list-style-type: none;
 }
@@ -69,10 +75,29 @@ footer {
 .footerMenu {
   color: white;
 }
+.footerMenu ul {
+  align-items: center;
+}
+.footerMenu li {
+  padding: 0 1% 0 0;
+}
 footer .iconEtCopyright span {
   background-color: var(--prime_red);
   border-radius: 50%;
 }
 #copyright {
   color: var(--prime_white);
+}
+
+@media screen and (max-width: 440px) {
+  .footerMenu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 10%;
+  }
+
+  .footerMenu #langue {
+    align-self: flex-end;
+  }
 }
