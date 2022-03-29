@@ -1,0 +1,17 @@
+:root {
+  --prime_red: #b11313;
+  --prime_yellow: #f1c530;
+  --prime_blue: #114c92;
+  --prime_black: #000000;
+  --prime_white: #ffffff;
+}
+/* MAIN  */
+/* GrandTitreApropos  */
+.grandTitreApropos {
+  background: url(../Illustration/img5.png) 50% 100% no-repeat
+    var(--prime_yellow);
+  background-size: 100%;
+}
+.laPetiteAnt {
+  background-color: var(--prime_red);
+}
