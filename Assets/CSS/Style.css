@@ -7,15 +7,19 @@
 }
 * {
   color: var(--prime_white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 nav {
-  background-color: var(--prime_red);
   color: var(--prime_white);
+  font-size: x-small;
 }
 nav li {
   text-decoration: none;
   list-style-type: none;
 }
+
 /* MAIN  */
 /* GrandTitre  */
 .grandTitre {
@@ -60,10 +64,10 @@ nav li {
 footer {
   background: var(--prime_black);
   text-align: center;
+  font-size: xx-small;
 }
 .footerMenu {
   color: white;
-  font-size: small;
 }
 footer .iconEtCopyright span {
   background-color: var(--prime_red);
