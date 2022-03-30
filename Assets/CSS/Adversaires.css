@@ -5,22 +5,31 @@
   --prime_black: #000000;
   --prime_white: #ffffff;
 }
+header {
+  background-color: var(--prime_yellow);
+}
 
+figure {
+  padding: 0 5%;
+}
 figure * {
   color: var(--prime_black);
 }
+
 figure img {
   width: 100%;
 }
 figcaption {
   background-color: var(--prime_yellow);
-  border: solid 5px var(--prime_black);
+  border: solid 7px var(--prime_black);
   border-top: 0px;
   border-radius: 0% 0% 20% 20%;
 }
 .granTitreAdversaires {
   background: url(../Illustration/img7.png) no-repeat;
   background-size: 100%;
+  background-size: cover;
+  padding: 25% 4% 4%;
 }
 .listeDesAdv {
   background-color: var(--prime_yellow);
@@ -31,5 +40,8 @@ figcaption {
   border-radius: 50%;
 }
 .langue_yellow {
+  background-color: var(--prime_yellow);
+}
+footer .iconEtCopyright span {
   background-color: var(--prime_yellow);
 }

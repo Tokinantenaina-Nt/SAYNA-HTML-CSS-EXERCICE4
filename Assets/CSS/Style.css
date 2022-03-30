@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+  font-size: xx-small;
+}
 li,
 ul {
   padding: 0;
@@ -20,32 +23,50 @@ nav {
   color: var(--prime_white);
   font-size: x-small;
 }
+nav a,
+nav a:hover {
+  text-decoration: none;
+  color: var(--prime_white);
+}
+
 nav li,
 footer li {
   text-decoration: none;
   list-style-type: none;
 }
 
-/* MAIN  */
-/* GrandTitre  */
+/* MAIN  Home_page*/
+
 .grandTitre {
   color: var(--prime_white);
-  background: url(../Illustration/img1.png) 50% 50% no-repeat;
-  background-size: 100%;
+  background: url(../Illustration/img1.png) 100% 50% no-repeat;
+  background-size: cover;
+}
+
+.grandTitre .container {
+  padding: 30% 0;
 }
 .boutton {
   background-color: var(--prime_white);
   color: var(--prime_red);
   border: 0;
+  font-size: xx-small;
+  border-radius: 15px;
+  padding: 8px 4px;
+  white-space: nowrap;
 }
 
 .boutton_no_bg {
   background-color: none;
   color: var(--prime_white);
-  border: var(--prime_white);
+  border: solid 0.2px var(--prime_white);
+  font-size: xx-small;
+  border-radius: 15px;
+  padding: 8px 4px;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/* Au cinéma  */
 .auCinema {
   color: var(--prime_white);
   background-color: var(--prime_red);
@@ -53,24 +74,42 @@ footer li {
 .auCinema img {
   width: 100%;
 }
-
-/* Deviens Spiderman */
-.deviensSpiderman {
-  background: url(../Illustration/img5.png) no-repeat var(--prime_blue);
-  background-size: auto;
+.auCinema .col-md-3 {
+  width: 30%;
 }
 
-/* Inscrit au Newsleter  */
+.deviensSpiderman {
+  background: url(../Illustration/img5.png) no-repeat var(--prime_blue) 0% 50%;
+  background-size: contain;
+}
+
+.formAremplir {
+  margin: 1% 0;
+  border-radius: 50px;
+  width: 100%;
+  color: var(--prime_black);
+}
+
+.formAremplir_no_bg {
+  margin: 2% 0;
+  border-radius: 50px;
+  width: 100%;
+  color: var(--prime_black);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.2px solid white;
+}
+
 .inscritToi {
-  background: url(../Illustration/img6.png) var(--prime_red) -500% 0% no-repeat;
-  background-size: auto;
+  background: url(../Illustration/img6.png) var(--prime_red) 130% 0% no-repeat;
+  background-size: contain;
+  padding: 5% 0 20% 0;
 }
 
 /* FOOTER  */
 footer {
-  background: var(--prime_black);
   text-align: center;
   font-size: xx-small;
+  background-color: var(--prime_black);
 }
 .footerMenu {
   color: white;
@@ -82,14 +121,27 @@ footer {
   padding: 0 1% 0 0;
 }
 footer .iconEtCopyright span {
-  background-color: var(--prime_red);
   border-radius: 50%;
 }
+footer .iconEtCopyright span {
+  background-color: var(--prime_red);
+}
+
 #copyright {
   color: var(--prime_white);
 }
 
 @media screen and (max-width: 440px) {
+  .container,
+  .row,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
   .footerMenu ul {
     display: flex;
     flex-direction: column;

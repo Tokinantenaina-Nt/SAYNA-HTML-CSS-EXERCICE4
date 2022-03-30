@@ -10,32 +10,39 @@
 </head>
 <body>
     <header>
-        <nav>
-          <div id="logo">
-            <img src="Assets/Logo/logo1.png" alt="logo sayna" />
-            <img src="Assets/Logo/logo2.png" alt="logo crois fois" />
-            <img src="Assets/Logo/logo3.png" alt="logo marvel" />
-          </div>
-          <ul class="list-inline">
-            <li class="list-inline-item">Acceuil</li>
-            <li class="list-inline-item">Adversaires</li>
-            <li class="list-inline-item">Heros</li>
-            <li class="list-inline-item">A propos</li>
-          </ul>
+        <nav class=" container py-2 text-center d-flex align-items-center justify-content-between">
+            <a href="index.html">
+                <div id="logo" class="">
+                    <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto; height: auto;" />
+                    <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;"/>
+                    <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 150px; height: 40px;"/>
+                </div>
+            </a>
+
+            <div>
+                <ul class="d-none d-md-inline">
+                    <li class="list-inline-item px-2"><a href="index.html"> Acceuil</a></li>
+                    <li class="list-inline-item px-3"><a href="Adversaires.html">Adversaires</a></li>
+                    <li class="list-inline-item px-3"><a href="Heros.html" class="fw-bold">Héros</a></li>
+                    <li class="list-inline-item px-2"><a href="A_propos.html">A propos</a></li>
+                </ul>
+            </div>
+
+            <span class="d-md-none">...</span>
         </nav>
-      </header>
+    </header>
     <main>
         <section class="grandTitreHeros">
             <h1 class="text-uppercase">
             Un heros
             </h1>
-            <div>"Un grand pouvoir implique de grandes résponsabilités"</div>
+            <h6>"Un grand pouvoir implique de grandes résponsabilités"</h6>
         </section>
-        <section class="valeursAdetendre">
+        <section class="valeursAdetendre py-5">
             <div class="container">
                 <div class="row">
-                    <h3>Des valeures à detendre</h3>
-                    <p>Spiderman, un héro qui se dépasse</p>    
+                    <h4>Des valeures à detendre</h4>
+                    <p class="fw-bold" style="font-size:x-small;">Spiderman, un héro qui se dépasse</p>    
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -50,16 +57,18 @@
             </div>
         </section>
         <section class="fondationSolide">
-            <h3>
-                Des fondations solides
-            </h3>
-            <p>
-                De quoi est-il vraiment capable ?
-            </p>
+            <div class="container">
+                <h4>
+                    Des fondations solides
+                </h4>
+                <p class="fw-bold" style="font-size:x-small;">
+                    De quoi est-il vraiment capable ?
+                </p>
+            </div>
         </section>
         <section class="descriptionFondationSolide">
             <div class="container">
-                <div class="row">
+                <div class="row py-5">
                     <div class="col-md">
                         <p>
                             <span class="fw-bold">
@@ -125,155 +134,151 @@
                 </div>
             </div>
         </section>
-        <sectiobn class="jamaisSeul">
-            <div class="container jamaisSeul">
+        <section class="jamaisSeul">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="text-uppercase">Jamais seul</h3>
-                        <p>Son entourage proche</p>
+                        <h4 class="text-uppercase">Jamais seul</h4>
+                        <p class="fw-bold" style="font-size:x-small;">Son entourage proche</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="Assets/Illustration/img21.png" alt="deux hommes les main sur l'épaule">
-                        <img src="Assets/Illustration/img22.png" alt="">
+                    <div class="col-md-6 py-2">
+                        <img src="Assets/Illustration/img21.png" alt="deux hommes les main sur l'épaule" style="width: 75%;">
+                        <img src="Assets/Illustration/img22.png" alt="se retourne avec un clin d'oeil" style="width: 75%;">
                     </div>
                     <div class="col-md-6">
-                        <h3 class="text-uppercase">Des meilleurs amis</h3>
+                        <h4 class="text-uppercase text-center" >Des meilleurs amis</h4>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores rem est quaerat ipsum quidem doloribus quam incidunt provident, error maxime quas recusandae eligendi earum impedit. Ut dicta culpa corrupti velit facilis. Ullam similique exercitationem qui, sapiente itaque enim perferendis?
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="text-uppercase">Mj / Gwen Stacy</h3>
+                        <h4 class="text-uppercase py-2">Mj / Gwen Stacy</h4>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores rem est quaerat ipsum quidem doloribus quam incidunt provident, error maxime quas recusandae eligendi earum impedit. Ut dicta culpa corrupti velit facilis. Ullam similique exercitationem qui, sapiente itaque enim perferendis?
                         </p>
                     </div>
-                    <div class="col-md-6">
-                       <img src="Assets/Illustration/img23.png" alt="fille">
-                       <img src="Assets/Illustration/img24.png" alt="fille">
-                       <img src="Assets/Illustration/img25.png" alt="fille">
+                    <div class="col-md-6 py-5" >
+                        <div class="d-flex justify-content-between">
+                            <img src="Assets/Illustration/img23.png" alt="fille" width="45%">
+                            <img src="Assets/Illustration/img24.png" alt="fille" width="45%">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <img src="Assets/Illustration/img25.png" alt="fille" width="45%">
+                        </div>
                     </div>
+                   
                 </div>
             </div>
         </sectiobn>
         <section class="lesAvengers">
-            <div class="contariner">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6 lesAvengersProfils">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="assets/Illustration/img26.png" 
-                                        alt="">
-                                        <img src="assets/Illustration/img27.png" 
-                                        alt="">
-                                        <img src="assets/Illustration/img28.png" 
-                                        alt="">
-                                        <img src="assets/Illustration/img29.png" 
-                                        alt="">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non tempore cupiditate assumenda hic eos dicta, voluptatum suscipit expedita fugiat dolores doloremque nulla. Voluptatibus sint placeat perspiciatis excepturi eum, laboriosam error recusandae velit! Rem alias totam molestiae. Iure, dolorem incidunt!
-                                            <br>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur ut similique, amet quod incidunt obcaecati error nulla, rem explicabo illum sapiente laborum molestiae numquam minima magni. Vitae, nam consequuntur.
-                                        </p>
-                                        <img src="assets/Illustration/img30.png" 
-                                        alt="">
-                                        <img src="assets/Illustration/img31.png" 
-                                        alt="">
-                                    </div>
+                    <div class="col-sm-6">
+                        <div class="container p-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="text-upercase py-4">Les Avengeres</h4>
                                 </div>
                             </div>
+                        </div>
+                        <div class="container p-0">
+                            <div class="row">
+                                <div class="col-md-6 lesAvengersProfils">
+                                    <img src="assets/Illustration/img26.png" 
+                                    alt="">
+                                    <img src="assets/Illustration/img27.png" 
+                                    alt="">
+                                    <img src="assets/Illustration/img28.png" 
+                                    alt="">
+                                    <img src="assets/Illustration/img29.png" 
+                                    alt="">
+                                </div>
+                                <div class="col-md-6 lesAvengersProfils">
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non tempore cupiditate assumenda hic eos dicta, voluptatum suscipit expedita fugiat dolores doloremque nulla. Voluptatibus sint placeat perspiciatis excepturi eum, laboriosam error recusandae velit! Rem alias totam molestiae. Iure, dolorem incidunt!
+                                        <br>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur ut similique, amet quod incidunt obcaecati error nulla, rem explicabo illum sapiente laborum molestiae numquam minima magni. Vitae, nam consequuntur.
+                                    </p>
+                                    <img src="assets/Illustration/img30.png" 
+                                    alt="">
+                                    <img src="assets/Illustration/img31.png" 
+                                    alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 scene_Bg">
+            
+                    <div class="col-sm-6 scene_Bg p-0">
              
-                            <!-- Illustration  -->
+                            -- Illustration  --
                        
                     </div>
-                </div>
-            </div>
-            
-            <div class="profils">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md">
-                            <img src="assets/Illustration/img26.png" 
-                            alt="">
-                            <img src="assets/Illustration/img27.png" 
-                            alt="">
-                            <img src="assets/Illustration/img28.png" 
-                            alt="">
-                            <img src="assets/Illustration/img29.png" 
-                            alt="">
-                        </div>
-                        <div class="col-md">
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis non tempore cupiditate assumenda hic eos dicta, voluptatum suscipit expedita fugiat dolores doloremque nulla. Voluptatibus sint placeat perspiciatis excepturi eum, laboriosam error recusandae velit! Rem alias totam molestiae. Iure, dolorem incidunt!
-                                <br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur ut similique, amet quod incidunt obcaecati error nulla, rem explicabo illum sapiente laborum molestiae numquam minima magni. Vitae, nam consequuntur.
-                            </p>
-                            <img src="assets/Illustration/img30.png" 
-                            alt="">
-                            <img src="assets/Illustration/img31.png" 
-                            alt="">
-                        </div>
-                    </div>
-                </div>
+                </div>          
             </div>
         </section>
         <!-- A FAIRE REGARDER LES RESPONSIVITE  -->
         <section class="UniversRiche">
-            <div class="fondBleuSupperpose">
-                <h3 class="text-uppercase">
+            <div class="fondBleuSupperpose px-3 pt-5">
+                <h4 class="text-uppercase">
                     Un univers hyper riche !
-                </h3>
-                <p><span class="fw-bold">A chacun don Spidey !</span>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque commodi natus alias? Totam incidunt officiis ipsam? Consectetur cumque dignissimos asperiores explicabo sit, ipsum porro vitae fugit est facilis perferendis ex odio veniam doloribus nemo magni obcaecati modi unde dolore. Nostrum possimus aut magnam ab pariatur doloremque a veniam expedita. <br>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora eaque nesciunt a laboriosam corrupti odio dolorum ea illum totam? <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, debitis?
-                </p>
+                </h4>
+                <p class="fw-bold">A chacun son Spidey !</p>
+                
+                    <p class="pb-5 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident eaque commodi natus alias? Totam incidunt officiis ipsam? Consectetur cumque dignissimos asperiores explicabo sit, ipsum porro vitae fugit est facilis perferendis ex odio veniam doloribus nemo magni obcaecati modi unde dolore. Nostrum possimus aut magnam ab pariatur doloremque a veniam expedita. <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tempora eaque nesciunt a laboriosam corrupti odio dolorum ea illum totam? <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, debitis?
+                    </p>
+                
             </div>
         </section>
 
     </main>
     <footer>
-        <div class="container footerMenu">
-          <div class="row">
-            <div class="col-md-4">
-              <ul class="list-inline">
-                <li class="list-inline-item">Mobile app</li>
-                <li class="list-inline-item">Politique de confidentialité</li>
-                <li class="list-inline-item">Cookies</li>
-              </ul>
+        <div class="py-2 footerMenu">
+            <div class="container p-0">
+                <div class="row">
+                    <ul class="d-flex justify-content-between" style="height: 0%">
+                        <li class="">Mobile app</li>
+                        <li>Politique de confidentialité</li>
+                        <li>Cookies</li>
+                    
+                        <li class="list-inline-item d-none d-md-block">
+                            <a href="index.html"> 
+                                <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
+                                <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
+                                <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
+                            </a>
+                        </li>
+            
+                        <li>Contact</li>
+                        <li>Blog</li>
+                        <li id="langue">
+                            <select name="" id="" class="">
+                                <option value="">Langue</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <li class="list-inline-item d-md-none d-block">
+                        <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
+                        <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
+                        <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
+                    </li>
+                </div>
             </div>
-            <div class="col-md-4">
-              <img src="Assets/Logo/logo1.png" alt="logo sayna" />
-              <img src="Assets/Logo/logo2.png" alt="logo crois fois" />
-              <img src="Assets/Logo/logo3.png" alt="logo marvel" />
-            </div>
-            <div class="col-md-4">
-              <ul class="list-inline">
-                <li class="list-inline-item">Contact</li>
-                <li class="list-inline-item">Blog</li>
-                <select name="" id="" class="langue_blue">
-                  <option value="">Langue</option>
-                </select>
-              </ul>
-            </div>
-          </div>
         </div>
-        <div class="iconEtCopyright_blue">
-          <span><a href="#"><img src="Assets/Logo/logof.png" alt="" /></a></span>
-          <span><a href="#"></a><img src="Assets/Logo/logoi.png" alt="" /></a></span>
-          <span></a><a href="#"></a><img src="Assets/Logo/logot.png" alt="" /></a></span>
-          <span><a href="#"><img src="Assets/Logo/logoy.png" alt="" /></a></span>
+        <div class="iconEtCopyright">
+            <span><a href="#"><img src="Assets/Logo/logof.png" alt="faceboo.com" /></a></span>
+            <span><a href="#"></a><img src="Assets/Logo/logoi.png" alt="instagram.com" /></a></span>
+            <span></a><a href="#"></a><img src="Assets/Logo/logot.png" alt="twitter.com" /></a></span>
+            <span><a href="#"><img src="Assets/Logo/logoy.png" alt="youtube.com" /></a></span>
         </div>
-        <div id="copyright">
-          &copy; SaynaxMarvel. Inc. 2022. We love our users!
+        <div id="copyright">&copy; SaynaxMarvel. Inc. 2022. We love our users!
         </div>
-      </footer>
+    </footer>
 </body>
 </html>

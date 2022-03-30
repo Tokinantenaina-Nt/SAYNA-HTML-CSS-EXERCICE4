@@ -7,42 +7,51 @@
     <title>Home</title>
     <link rel="stylesheet" href="Assets/CSS/Style.css" />
     <link rel="stylesheet" href="../Assets/Bootstrap/bootstrap.min.css" />
+    
   </head>
   <body>
-    <header>
-      <nav>
-        <div id="logo">
-          <img src="Assets/Logo/logo1.png" alt="logo sayna" />
-          <img src="Assets/Logo/logo2.png" alt="logo crois fois" />
-          <img src="Assets/Logo/logo3.png" alt="logo marvel" />
-        </div>
-        <ul class="list-inline">
-          <li class="list-inline-item">Acceuil</li>
-          <li class="list-inline-item">Adversaires</li>
-          <li class="list-inline-item">Heros</li>
-          <li class="list-inline-item">A propos</li>
-        </ul>
+    <header style="background-color: var(--prime_red);">
+      <nav class=" container py-2 text-center d-flex align-items-center justify-content-between">
+          <a href="index.html">
+            <div id="logo" class="">
+                    <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto; height: auto;" />
+                    <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;"/>
+                    <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 150px; height: 40px;"/>
+            </div>
+          </a>  
+          <div>
+              <ul class="d-none d-md-inline">
+                  <li class="list-inline-item px-2"><a href="index.html" class="fw-bold"> Acceuil</a></li>
+                  <li class="list-inline-item px-3"><a href="Adversaires.html">Adversaires</a></li>
+                  <li class="list-inline-item px-3"><a href="Heros.html">Héros</a></li>
+                  <li class="list-inline-item px-2"><a href="A_propos.html">A propos</a></li>
+              </ul>
+          </div>
+
+          <span class="d-md-none">...</span>
       </nav>
     </header>
     <main>
       <section class="grandTitre">
+      <div class="container">
         <h1 class="text-uppercase">
         Spiderman
         </h1>
         <button class="boutton">Voir les Héros</button>
         <button class="boutton_no_bg">Voir les Adversaires</button>
-        <div>L'araignée sympa du quartier !</div>
+        <h6>L'araignée sympa du quartier !</h6>
+      </div>
       </section>
-      <section class="auCinema">
+      <section class="auCinema px-4">
         <div class="container">
           <div class="row">
-            <div class="text-uppercase">Les spiderman au cinéma</div>
+            <h4 class="text-uppercase">Les spiderman au cinéma</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde laudantium alias beatae placeat illum nisi perspiciatis blanditiis sint molestiae.</p>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-3">
+          <div class="row d-md-flex justify-content-between">
+            <div class=" col-md col-12">
               <img src="Assets/Illustration/img3.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-5">
+              <p class="pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
               </p>
               <div class="text-center p-4">
@@ -51,9 +60,9 @@
               </button>
             </div>
             </div>
-            <div class="col-md-3">
+            <div class=" col-md col-12">
               <img src="Assets/Illustration/img2.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-5">
+              <p class="pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
               </p>
               <div class="text-center p-4">
@@ -62,9 +71,9 @@
               </button>
             </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md col-12">
               <img src="Assets/Illustration/img4.png" alt="moitié masque de spiderman moitié visage">
-              <p class="pt-5">
+              <p class="pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In, provident quis nostrum dignissimos aliquid, accusantium quam neque sint voluptates velit alias. Doloribus possimus accusamus consectetur architecto in animi labore, quibusdam repellat expedita hic eligendi commodi corporis unde omnis enim ea?
               </p>
               <div class="text-center p-4">
@@ -76,7 +85,7 @@
           </div>
         </div>
       </section>
-      <section class="deviensSpiderman">
+      <section class="deviensSpiderman py-5">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -85,15 +94,15 @@
               <div class="text-uppercase">
                 Deviens Spiderman !
               </div>
-              <p>REmplir le formulaire ci dessous pour ...</p>
+              <p>REmplir le formulaire ci dessous pour afin de recevoir ta porpre costume.</p>
             
               <form action="">
                 <input type="text" name="" id="" placeholder="Nom" class="formAremplir">
-                <input type="text" name="" id="" placeholder="Nom" class="formAremplir">
-                <input type="text" name="" id="" placeholder="Nom" class="formAremplir">
-                <input type="text" name="" id="" placeholder="Nom" class="formAremplir">
-                <input type="text" name="" id="" placeholder="Nom" class="formAremplir">
-                <button class="boutton_no_bg">Envoyer</button>
+                <input type="text" name="" id="" placeholder="Prénom" class="formAremplir">
+                <input type="number" name="" id="" placeholder="Taille (cm)" class="formAremplir">
+                <input type="number" name="" id="" placeholder="Poids (kg)" class="formAremplir">
+                <input type="email" name="" id="" placeholder="Adressse email" class="formAremplir"><br> 
+                <button class="boutton_no_bg my-2" style="padding: 10px 20px;">Envoyer</button>
               </form>
             </div>
           </div>
@@ -104,15 +113,16 @@
           <div class="row">
             <div class="col-md-6">
               <div class="text-uppercase">
-                Inscrit toi à la newsletter
+                Inscrit toi à la newsletter !
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab quia labore impedit.s</p>
 
               <form action="">
                 <input type="text" name="" id="" placeholder="Nom Prénom" class="formAremplir_no_bg"> <br>
-                <input type="text" name="" id="" placeholder="Nom Prénom" class="formAremplir_no_bg"> <br>
+                <input type="text" name="" id="" placeholder="Adresse email" class="formAremplir_no_bg"> <br>
                 <input type="checkbox" id="polconf">
-                <label for="polconf">Je reconnais la <a href="#"> politique de confidentialité</a> de Sayna X Marvel</label>
+                <label for="polconf"><p>
+                  Je reconnais la <a href="#" style="color: var(--prime_white);"> politique de confidentialité</a> de Sayna X Marvel</p></label>
                 <div class="text-center">
                   <button class="boutton">S'inscrire à la newsletter</button>
                 </div>
@@ -125,39 +135,47 @@
       </section>
     </main>
     <footer>
-      <div class="container footerMenu">
-        <div class="row">
-          <div class="col-md-4">
-            <ul class="list-inline">
-              <li class="list-inline-item">Mobile app</li>
-              <li class="list-inline-item">Politique de confidentialité</li>
-              <li class="list-inline-item">Cookies</li>
-            </ul>
+      <div class="py-2 footerMenu">
+          <div class="container p-0">
+              <div class="row">
+                  <ul class="d-flex justify-content-between" style="height: 0%">
+                      <li class="">Mobile app</li>
+                      <li>Politique de confidentialité</li>
+                      <li>Cookies</li>
+                  
+                      <li class="list-inline-item d-none d-md-block">
+                        <a href="index.html"> 
+                            <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
+                            <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
+                            <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
+                        </a>
+                      </li>
+          
+                      <li>Contact</li>
+                      <li>Blog</li>
+                      <li id="langue">
+                          <select name="" id="" class="">
+                              <option value="">Langue</option>
+                          </select>
+                      </li>
+                  </ul>
+              </div>
+              <div class="row">
+                  <li class="list-inline-item d-md-none d-block">
+                      <img src="Assets/Logo/logo1.png" alt="logo sayna" style="width: auto;height: auto;"/>
+                      <img src="Assets/Logo/logo2.png" alt="logo crois fois" style="width: auto;" />
+                      <img src="Assets/Logo/logo3.png" alt="logo marvel" style="width: 100px; height: 40px;"/>
+                  </li>
+              </div>
           </div>
-          <div class="col-md-4">
-            <img src="Assets/Logo/logo1.png" alt="logo sayna" />
-            <img src="Assets/Logo/logo2.png" alt="logo crois fois" />
-            <img src="Assets/Logo/logo3.png" alt="logo marvel" />
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline">
-              <li class="list-inline-item">Contact</li>
-              <li class="list-inline-item">Blog</li>
-              <select name="" id="">
-                <option value="">Langue</option>
-              </select>
-            </ul>
-          </div>
-        </div>
       </div>
       <div class="iconEtCopyright">
-        <span><a href="#"><img src="Assets/Logo/logof.png" alt="" /></a></span>
-        <span><a href="#"></a><img src="Assets/Logo/logoi.png" alt="" /></a></span>
-        <span></a><a href="#"></a><img src="Assets/Logo/logot.png" alt="" /></a></span>
-        <span><a href="#"><img src="Assets/Logo/logoy.png" alt="" /></a></span>
+          <span><a href="#"><img src="Assets/Logo/logof.png" alt="faceboo.com" /></a></span>
+          <span><a href="#"></a><img src="Assets/Logo/logoi.png" alt="instagram.com" /></a></span>
+          <span></a><a href="#"></a><img src="Assets/Logo/logot.png" alt="twitter.com" /></a></span>
+          <span><a href="#"><img src="Assets/Logo/logoy.png" alt="youtube.com" /></a></span>
       </div>
-      <div id="copyright">
-        &copy; SaynaxMarvel. Inc. 2022. We love our users!
+      <div id="copyright">&copy; SaynaxMarvel. Inc. 2022. We love our users!
       </div>
     </footer>
   </body>

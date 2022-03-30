@@ -9,17 +9,24 @@ root {
 html * {
   color: var(--prime_white);
 }
-
+header {
+  background-color: var(--prime_blue);
+}
 .grandTitreHeros {
-  background: url(../Illustration/img19.png);
-  background-size: 100%;
+  color: var(--prime_blue);
+  background: url(../Illustration/img19.png) 50% 50% no-repeat;
+  background-size: cover;
+  padding-top: 50%;
+  padding: 30% 4% 4%;
 }
 .valeursAdetendre {
   background-color: var(--prime_blue);
 }
 .fondationSolide {
-  background: url(../Illustration/img20.png);
+  background: url(../Illustration/img20.png) 50% 50% no-repeat;
   background-size: 100%;
+  background-size: cover;
+  padding: 4% 4% 20%;
 }
 .descriptionFondationSolide {
   background-color: var(--prime_blue);
@@ -29,23 +36,32 @@ html * {
 }
 .scene_Bg {
   background: url(../Illustration/img32.png) 50% 50% no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
-.lesAvengersProfils {
+
+.lesAvengers {
   background-color: var(--prime_red);
 }
+
 .lesAvengersProfils img {
   width: 100%;
+  padding: 4% 0 4% 0;
 }
+
 .UniversRiche {
-  background: url(../Illustration/img33.png) 50% 50% no-repeat;
-  background-size: 100%;
+  background: url(../Illustration/img33.png) 100% 100% no-repeat;
+  background-size: cover;
 }
-/* FOOTER HEROS PAGE  */
-.iconEtCopyright_blue {
-  background-color: var(--prime_blue);
-  border-radius: 50%;
-}
+
 .langue_blue {
+  background-color: var(--prime_blue);
+}
+.fondBleuSupperpose {
+  background-color: var(--prime_blue);
+  margin: 0 10% 0 50%;
+  opacity: 0.5;
+}
+
+footer .iconEtCopyright span {
   background-color: var(--prime_blue);
 }
