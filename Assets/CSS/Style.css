@@ -1,9 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 :root {
   --prime_red: #b11313;
   --prime_yellow: #f1c530;
   --prime_blue: #114c92;
   --prime_black: #000000;
   --prime_white: #ffffff;
+}
+@font-face {
+  font-family: "Far From Homecoming Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Far From Homecoming Regular"),
+    url("../Font/far-from-homecoming-cufonfonts-webfont/Far-From\ Homecoming.woff")
+      format("woff");
+}
+
+html {
+  font-family: "Montserrat";
+}
+h1 {
+  font-family: "Far From Homecoming Regular", "Courier New";
 }
 * {
   color: var(--prime_white);
@@ -120,11 +136,9 @@ footer {
 .footerMenu li {
   padding: 0 1% 0 0;
 }
-footer .iconEtCopyright span {
-  border-radius: 50%;
-}
-footer .iconEtCopyright span {
-  background-color: var(--prime_red);
+
+footer .iconEtCopyright i {
+  padding: 1%;
 }
 
 #copyright {

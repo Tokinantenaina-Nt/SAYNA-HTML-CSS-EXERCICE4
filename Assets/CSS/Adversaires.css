@@ -5,6 +5,8 @@
   --prime_black: #000000;
   --prime_white: #ffffff;
 }
+* {
+}
 header {
   background-color: var(--prime_yellow);
 }
@@ -24,6 +26,7 @@ figcaption {
   border: solid 7px var(--prime_black);
   border-top: 0px;
   border-radius: 0% 0% 20% 20%;
+  font-size: xx-small;
 }
 .granTitreAdversaires {
   background: url(../Illustration/img7.png) no-repeat;
@@ -35,13 +38,11 @@ figcaption {
   background-color: var(--prime_yellow);
 }
 /* FOOTER ADVERSAIRE  */
-.iconEtCopyright_yellow span {
-  background-color: var(--prime_yellow);
-  border-radius: 50%;
-}
+
 .langue_yellow {
   background-color: var(--prime_yellow);
 }
-footer .iconEtCopyright span {
-  background-color: var(--prime_yellow);
+footer .iconEtCopyright i {
+  color: var(--prime_yellow);
+  padding: 1%;
 }

@@ -62,6 +62,6 @@ header {
   opacity: 0.5;
 }
 
-footer .iconEtCopyright span {
-  background-color: var(--prime_blue);
+footer .iconEtCopyright i {
+  color: var(--prime_blue);
 }

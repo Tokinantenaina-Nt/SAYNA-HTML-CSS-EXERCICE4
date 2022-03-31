@@ -16,6 +16,6 @@ header {
   padding: 50% 4% 4%;
 }
 
-footer .iconEtCopyright span {
-  background-color: var(--prime_red);
+footer .iconEtCopyright i {
+  color: var(--prime_red);
 }
