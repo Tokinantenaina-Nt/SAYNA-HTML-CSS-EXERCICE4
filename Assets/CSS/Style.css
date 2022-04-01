@@ -188,6 +188,9 @@ footer select {
   .row {
     text-align: center;
   }
+  .center {
+    text-align: center;
+  }
 
   h1 {
     font-size: 100% !important;
@@ -206,6 +209,11 @@ footer select {
   h3,
   h4 {
     font-size: small !important;
+  }
+
+  .deviensSpiderman p,
+  .inscritToi p {
+    padding: 0 5% !important;
   }
   .grandTitre,
   .grandTitreApropos,
@@ -234,5 +242,15 @@ footer select {
     padding: 0 !important;
     margin-top: 0 !important;
     width: 100% !important;
+  }
+  form {
+    padding: 0 5%;
+  }
+
+  .jamaisSeul .fille {
+    width: 30% !important;
+  }
+  .fille3 {
+    margin-top: -28%;
   }
 }
