@@ -5,8 +5,7 @@
   --prime_black: #000000;
   --prime_white: #ffffff;
 }
-* {
-}
+
 header {
   background-color: var(--prime_yellow);
 }
@@ -29,16 +28,20 @@ figcaption {
   font-size: xx-small;
 }
 .grandTitreAdversaires {
-  background: url(../Illustration/img7.png) no-repeat;
+  background: url(../Illustration/img7.png) no-repeat 100% 50%;
   background-size: cover;
-  padding: 25% 4% 4%;
+  padding: 25% 13% 20%;
 }
 .listeDesAdv {
   background-color: var(--prime_yellow);
 }
 
-.langue_yellow {
-  background-color: var(--prime_yellow);
+figcaption h3 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: small;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4%;
 }
 footer .iconEtCopyright i {
   color: var(--prime_yellow);

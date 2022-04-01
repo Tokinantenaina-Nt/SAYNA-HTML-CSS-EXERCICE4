@@ -12,21 +12,35 @@ html * {
 header {
   background-color: var(--prime_blue);
 }
+h5 {
+  font-size: 110% !important;
+}
 .grandTitreHeros {
   color: var(--prime_blue);
   background: url(../Illustration/img19.png) 50% 50% no-repeat;
   background-size: cover;
   padding-top: 50%;
-  padding: 30% 4% 4%;
+  padding: 20% 13% 15%;
 }
 .valeursAdetendre {
   background-color: var(--prime_blue);
 }
+
+.valeursAdetendre iframe {
+  text-align: center;
+  width: 120%;
+  height: 120%;
+  padding: 5%;
+  margin-top: -12%;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  border-radius: 10px 50px;
+}
+
 .fondationSolide {
   background: url(../Illustration/img20.png) 50% 50% no-repeat;
   background-size: 100%;
   background-size: cover;
-  padding: 4% 4% 20%;
+  padding: 8% 4% 20%;
 }
 .descriptionFondationSolide {
   background-color: var(--prime_blue);
@@ -34,9 +48,10 @@ header {
 .jamaisSeul {
   background-color: var(--prime_blue);
 }
-.scene_Bg {
-  background: url(../Illustration/img32.png) 50% 50% no-repeat;
-  background-size: cover;
+
+.imageSuperpose {
+  margin-top: -15%;
+  margin-left: 25%;
 }
 
 .lesAvengers {
@@ -53,12 +68,9 @@ header {
   background-size: cover;
 }
 
-.langue_blue {
-  background-color: var(--prime_blue);
-}
 .fondBleuSupperpose {
   background-color: rgba(17, 76, 146, 0.5);
-  margin: 0 10% 0 50%;
+  margin: 0 10% 0 55%;
 }
 
 footer .iconEtCopyright i {
