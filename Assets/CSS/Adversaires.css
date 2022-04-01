@@ -28,16 +28,14 @@ figcaption {
   border-radius: 0% 0% 20% 20%;
   font-size: xx-small;
 }
-.granTitreAdversaires {
+.grandTitreAdversaires {
   background: url(../Illustration/img7.png) no-repeat;
-  background-size: 100%;
   background-size: cover;
   padding: 25% 4% 4%;
 }
 .listeDesAdv {
   background-color: var(--prime_yellow);
 }
-/* FOOTER ADVERSAIRE  */
 
 .langue_yellow {
   background-color: var(--prime_yellow);
@@ -45,4 +43,8 @@ figcaption {
 footer .iconEtCopyright i {
   color: var(--prime_yellow);
   padding: 1%;
+}
+footer select {
+  background-color: var(--prime_yellow);
+  border-radius: 10px;
 }

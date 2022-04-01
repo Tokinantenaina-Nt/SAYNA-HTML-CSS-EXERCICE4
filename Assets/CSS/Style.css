@@ -16,10 +16,18 @@
 }
 
 html {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
-h1 {
-  font-family: "Far From Homecoming Regular", "Courier New";
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Far From Homecoming Regular", Courier;
+}
+audio {
+  color: var(--prime_red);
+  height: 1rem;
 }
 * {
   color: var(--prime_white);
@@ -29,6 +37,7 @@ h1 {
 }
 p {
   font-size: xx-small;
+  text-align: justify;
 }
 li,
 ul {
@@ -51,7 +60,7 @@ footer li {
   list-style-type: none;
 }
 
-/* MAIN  Home_page*/
+/* *************************** MAIN  Home_page ******************************* */
 
 .grandTitre {
   color: var(--prime_white);
@@ -78,9 +87,11 @@ footer li {
   border: solid 0.2px var(--prime_white);
   font-size: xx-small;
   border-radius: 15px;
-  padding: 8px 4px;
+  padding: 8px 8px;
   white-space: nowrap;
   background-color: rgba(0, 0, 0, 0);
+  width: 10em;
+  margin: 3% 0;
 }
 
 .auCinema {
@@ -99,13 +110,23 @@ footer li {
   background-size: contain;
 }
 
-.formAremplir {
+input::-webkit-input-placeholder {
+  font-size: xx-small;
+  padding-left: 4%;
+  margin: 0;
+}
+
+.formAremplir,
+.formAremplir_index {
   margin: 1% 0;
   border-radius: 50px;
   width: 100%;
   color: var(--prime_black);
+  border: 0;
 }
-
+.formAremplir_index {
+  background-color: var(--prime_white);
+}
 .formAremplir_no_bg {
   margin: 2% 0;
   border-radius: 50px;
@@ -121,7 +142,7 @@ footer li {
   padding: 5% 0 20% 0;
 }
 
-/* FOOTER  */
+/* ******************************** FOOTER ********************************** */
 footer {
   text-align: center;
   font-size: xx-small;
@@ -141,20 +162,35 @@ footer .iconEtCopyright i {
   padding: 1%;
 }
 
+footer select {
+  border-radius: 10px;
+}
+
 #copyright {
   color: var(--prime_white);
 }
 
+/* *********************************** RESPONSIVE ************************** */
 @media screen and (max-width: 440px) {
   .container,
-  .row,
+  .row {
+    text-align: center;
+  }
+  h6 {
+    font-size: xx-small !important;
+  }
+
   h1,
   h2,
   h3,
   h4,
-  h5,
-  h6 {
-    text-align: center;
+  h5 {
+    font-size: small !important;
+  }
+  .grandTitre,
+  .grandTitreApropos,
+  .grandTitreAdversaires {
+    text-align: left;
   }
   .footerMenu ul {
     display: flex;
@@ -165,5 +201,7 @@ footer .iconEtCopyright i {
 
   .footerMenu #langue {
     align-self: flex-end;
+    margin-top: -25%;
+    padding-bottom: 25%;
   }
 }

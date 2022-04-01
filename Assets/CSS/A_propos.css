@@ -8,22 +8,31 @@
 header {
   background-color: var(--prime_red);
 }
-/* MAIN  */
-/* GrandTitreApropos  */
+
 .grandTitreApropos {
   color: var(--prime_white);
   background: url(../Illustration/img5.png) 0% 50% no-repeat var(--prime_yellow);
   background-size: contain;
   padding-top: 50%;
-  padding: 50% 4% 4%;
+  padding: 20% 15%;
 }
+
 .laPetiteAnt {
   background-color: var(--prime_red);
 }
 .saynaXmarvel {
   background-color: var(--prime_blue);
 }
+
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 footer .iconEtCopyright i {
   color: var(--prime_red);
   padding: 1%;
+}
+footer select {
+  background-color: var(--prime_red);
+  border-radius: 10px;
 }

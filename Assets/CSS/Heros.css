@@ -57,11 +57,15 @@ header {
   background-color: var(--prime_blue);
 }
 .fondBleuSupperpose {
-  background-color: var(--prime_blue);
+  background-color: rgba(17, 76, 146, 0.5);
   margin: 0 10% 0 50%;
-  opacity: 0.5;
 }
 
 footer .iconEtCopyright i {
   color: var(--prime_blue);
+  padding: 1%;
+}
+footer select {
+  background-color: var(--prime_blue);
+  border-radius: 10px;
 }
