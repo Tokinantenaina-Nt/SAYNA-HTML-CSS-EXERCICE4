@@ -24,8 +24,9 @@ figcaption {
   background-color: var(--prime_yellow);
   border: solid 7px var(--prime_black);
   border-top: 0px;
-  border-radius: 0% 0% 20% 20%;
+  border-radius: 0% 0% 10% 10%;
   font-size: xx-small;
+  padding: 0% 2%;
 }
 .grandTitreAdversaires {
   background: url(../Illustration/img7.png) no-repeat 100% 50%;
