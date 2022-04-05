@@ -184,6 +184,23 @@ footer select {
 
 /* *********************************** RESPONSIVE ************************** */
 @media screen and (max-width: 440px) {
+  header .menuDeroul_items{
+    background-color:rgba(177, 19, 19, 0);  
+    width: auto;
+    border: 0;
+  }
+
+  header .menuDeroul_items li a{
+    color: var(--prime_white);
+    font-style: italic;
+    text-align: right;
+    background-color:rgba(177, 19, 19, 0.8); 
+    width: 100%;
+  }
+  header .menuDeroul_items li{
+    font-size: xx-small;
+    
+  }
   .container,
   .row {
     text-align: center;

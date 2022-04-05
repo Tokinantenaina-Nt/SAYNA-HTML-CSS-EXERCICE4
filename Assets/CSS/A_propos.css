@@ -11,7 +11,7 @@ header {
 
 .grandTitreApropos {
   color: var(--prime_white);
-  background: url(../Illustration/img5.png) 0% 50% no-repeat var(--prime_yellow);
+  background: url(../Illustration/img5-REVERS.png) 100% 50% no-repeat var(--prime_yellow);
   background-size: contain;
   padding-top: 50%;
   padding: 20% 15%;
@@ -36,3 +36,10 @@ footer select {
   background-color: var(--prime_red);
   border-radius: 10px;
 }
+/* **************************** Media query ******************************** */
+
+header .menuDeroul_items li a{
+  background-color:rgba(177, 19, 19, 0.8);
+}
+
+/* ************************************************************************* */

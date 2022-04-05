@@ -52,3 +52,10 @@ footer select {
   background-color: var(--prime_yellow);
   border-radius: 10px;
 }
+/* **************************** Media query ******************************** */
+
+header .menuDeroul_items li a{
+  background-color:rgba(241, 197, 48, 0.8);
+}
+
+/* ************************************************************************* */

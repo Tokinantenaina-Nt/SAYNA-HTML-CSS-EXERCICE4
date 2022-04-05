@@ -24,3 +24,10 @@ footer select {
   background-color: var(--prime_red);
   border-radius: 10px;
 }
+/* **************************** Media query ******************************** */
+
+header .menuDeroul_items li a{
+  background-color:rgba(177, 19, 19, 0.8);
+}
+
+/* ************************************************************************* */
