@@ -84,7 +84,7 @@ footer select {
 /* **************************** Media query ******************************** */
 
 header .menuDeroul_items li a{
-  background-color:rgba(17, 76, 146, 0.8);
+  background-color:rgba(17, 76, 146, 0.8) !important;
 }
 
 /* ************************************************************************* */
